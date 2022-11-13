@@ -1,0 +1,17 @@
+:root {
+	background-color: rgb(242, 231, 203);
+	font-size: 17px;
+	line-height: 1.2rem;
+
+} /* root of the tree or html */
+
+
+
+body * {
+	margin:          3px 3px 3px 3px;
+	box-sizing:      unset;
+	padding:         unset;
+	font-size:       unset;
+	color:           unset;
+	text-decoration: unset;
+}

@@ -1,0 +1,95 @@
+h2 {
+    font-size: 20px;
+    padding: 5px 26px;
+}
+
+.bloglogo {
+    display: grid;
+    grid-template-columns: 10% 90%;
+    height: 50px;
+    margin: 0;
+
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.navtop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(239, 220, 108);
+}
+
+.navtop span {
+    padding: 20px 60px;
+}
+
+.mainspace {
+    display: grid;
+    grid-template-columns: 10% 40% 10% 40%;
+    margin: 0;
+}
+
+.navleft {
+    grid-column: 1 / 2;
+    line-height: 45px;
+    padding: 10px;
+    border: 1px solid;
+    background-color: rgb(239, 220, 108);
+    border: none;
+    }
+
+.blogarticles {
+    grid-column: 2 / 5;
+    display: grid;
+    margin: 0;
+    text-align: justify;
+}
+
+img {
+    max-width: 90%;
+    max-height: 90%;
+    margin: 0;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.leftarticle {
+    grid-column: 1 / 4;
+    padding: 5px 5px ;
+    min-height: 80px;
+}
+
+.rightarticle {
+    grid-column: 2 / 5;
+    padding: 5px 5px;
+    min-height: 80px;
+}
+
+.navbottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(239, 220, 108);
+}
+.navbottom span {
+    padding: 20px 100px;
+}
+
+@media  (max-width: 650px) {
+    .navbottom span, .navtop span , .navleft {
+        font-size: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+a {
+    color:rgb(17, 11, 144);
+}
